@@ -1,0 +1,78 @@
+/* style.scss */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for IntroSection */
+.ftco-intro {
+  position: relative;
+  overflow: hidden;
+}
+
+.ftco-intro .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.75); /* Adjust opacity as needed */
+}
+
+.container-xl {
+  max-width: 1280px; /* Adjust container max-width as needed */
+}
+
+.text-xs {
+  font-size: 0.75rem; /* Adjust font size as needed */
+  letter-spacing: 0.1em; /* Adjust letter spacing as needed */
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* Adjust font size as needed */
+}
+
+.text-5xl {
+  font-size: 3rem; /* Adjust font size as needed */
+}
+
+.text-6xl {
+  font-size: 3.75rem; /* Adjust font size as needed */
+}
+
+.font-bold {
+  font-weight: 700; /* Adjust font weight as needed */
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem; /* Adjust padding as needed */
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: 600; /* Adjust font weight as needed */
+  text-transform: uppercase;
+  letter-spacing: 0.05em; /* Adjust letter spacing as needed */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4a90e2; /* Adjust background color as needed */
+  color: #ffffff; /* Adjust text color as needed */
+}
+
+.btn-primary:hover {
+  background-color: #357bd8; /* Adjust hover background color as needed */
+}
+
+@media (min-width: 640px) {
+  .md:text-sm {
+    font-size: 0.875rem; /* Adjust font size as needed */
+  }
+}
+
+@media (min-width: 768px) {
+  .md:w-8/12 {
+    width: 66.666667%; /* Adjust width percentage as needed */
+  }
+  
+  .md:w-4/12 {
+    width: 33.333333%; /* Adjust width percentage as needed */
+  }
+}

@@ -1,0 +1,29 @@
+/* MenuList.module.css */
+.restaurantImageContainer {
+    display: flex;
+    align-items: stretch; /* Ensures both columns in the row are of equal height */
+  }
+  
+  .restaurantImage {
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Ensure the image container takes full height */
+  }
+  
+  .menuItemsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  }
+  
+  .menuItem {
+    width: 100%; /* Ensure each menu item takes full width of its container */
+    margin-bottom: 20px; /* Adjust spacing between menu items */
+  }
+  
+  @media (min-width: 992px) {
+    .menuItem {
+      width: calc(50% - 20px); /* Two items per row with spacing between them */
+      margin-right: 20px; /* Adjust spacing between menu items */
+    }
+  }
+  
