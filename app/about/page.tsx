@@ -138,7 +138,7 @@ const AboutUs = () => {
         variants={animationVariants}
         transition={{ duration: 0.8, delay: 1.2 }}
       >
-        {/* <TestimonialSection /> */}
+        <TestimonialSection />
       </motion.div>
       <motion.div
         initial="hidden"
