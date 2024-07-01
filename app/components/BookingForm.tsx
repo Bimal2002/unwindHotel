@@ -1,4 +1,5 @@
 import React from 'react';
+import "../globals.css";
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 import './BookingForm';
 const BookingForm: React.FC = () => {

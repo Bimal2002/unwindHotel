@@ -15,6 +15,7 @@ import RecentBlogSection from './components/RecentBlogSection';
 import GallerySection from './components/GallerySection';
 import AboutUsContent from './components/AboutUs';
 import { useEffect, ReactNode } from 'react';
+import './globals.css';
 
 const animationVariants = {
   hidden: { opacity: 0, y: 50 },

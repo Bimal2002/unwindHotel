@@ -12,6 +12,7 @@ import ServicesSection from "../components/ServicesSection";
 import Footer from '../components/Footer';
 import BookingForm from "../components/BookingForm";
 // import room1Img from '../../../public/images/room-1.jpg';
+import "../globals.css";
 
 import room1Img from "../../public/images/room-1.jpg";
 import room2Img from "../../../public/images/room-2.jpg";

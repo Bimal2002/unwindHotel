@@ -1,4 +1,5 @@
 // RestoBar.tsx
+import "../globals.css";
 const RestoBar = () => (
   <section className="ftco-section">
     <div className="container-fluid">

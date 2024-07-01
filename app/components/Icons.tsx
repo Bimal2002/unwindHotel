@@ -1,5 +1,5 @@
 import React, { SVGProps } from 'react';
-
+import "../globals.css";
 export const CodeIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

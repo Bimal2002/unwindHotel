@@ -1,5 +1,6 @@
 // MenuList.js
 'use client';
+import "../globals.css";
 const MenuList = () => (
     <section className="ftco-section">
       <div className="container-fluid">

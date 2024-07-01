@@ -4,6 +4,7 @@ import Navbar from '../components/NavBar';
 import Footer from '../components/Footer';
 import BlogEntriesSection from '../components/BlogEntriesSection';
 import HeroSectionGeneral from '../components/HeroSectionGerneral';
+import "../globals.css";
 const Blog = () => (
   <>
     <Navbar />

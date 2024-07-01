@@ -2,6 +2,7 @@
 
 "use client";
 import Link from "next/link";
+import "../globals.css";
 
 // Import CSS files
 import "../../public/css/animate.css";

@@ -3,14 +3,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 // Import CSS files
-import "../../public/css/animate.css";
-import "../../public/css/aos.css";
-import "../../public/css/flaticon.css";
-import "../../public/css/tiny-slider.css";
-import "../../public/css/bootstrap/bootstrap-grid.css";
-import "../../public/css/bootstrap/bootstrap-reboot.css";
-import "../../public/css/bootstrap/bootstrap-utilities.css";
-import "../../public/scss/style.scss";
+
+import "../globals.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaArrowsLeftRight } from "react-icons/fa6";
 

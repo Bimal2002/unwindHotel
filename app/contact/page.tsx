@@ -6,6 +6,7 @@ import Navbar from '../components/NavBar';
 import HeroSection from '../components/HeroSectionGerneral';
 import Contact from '../components/ContactForm';
 import Footer from '../components/Footer';
+import "../globals.css";
 
 const ContactPageComponent: React.FC = () => {
   return (

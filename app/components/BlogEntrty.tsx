@@ -1,6 +1,7 @@
 // components/BlogEntry.tsx
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import "../globals.css";
 
 interface BlogEntryProps {
   image: string;

@@ -8,20 +8,9 @@ import TestimonialSection from "./TestimonialSection";
 import GallerySection from "./GallerySection";
 import fServicesImg1 from "../../public/images/f-services.jpg";
 import fServicesImg2 from "../../public/images/f-services-2.jpg";
-import '../../public/css/animate.css';
-import '../../public/css/aos.css';
-// import '../../public/css/bootstrap.min.css';
-// import '../../public/css/datepicker.min.css';
-import '../../public/css/flaticon.css';
-// import '../../public/css/style.css';
-import '../../public/css/tiny-slider.css'; 
-import '../../public/css/bootstrap/bootstrap-grid.css';
-import '../../public/css/bootstrap/bootstrap-reboot.css';
-import '../../public/css/bootstrap/bootstrap-utilities.css';
 
-// import '../../public/fonts/flaticon/font/_flaticon.scss';
-// import '../../public/fonts/flaticon/font/flaticon.css';
-import '../../public/scss/style.scss';
+
+import "../globals.css";
 
 const AboutUsContent: React.FC = () => {
   const animationVariants = {

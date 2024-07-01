@@ -1,5 +1,6 @@
 // components/ServicesSection.tsx
 'use client';
+import "../globals.css";
 // components/ServicesSection.tsx
 import React from 'react';
 import ServiceCard from './ServiceCard';

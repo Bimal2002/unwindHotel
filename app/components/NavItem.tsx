@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import "../globals.css";
 interface NavItemProps {
   to: string;
   text: string;

@@ -1,19 +1,11 @@
 // components/VideoSection.tsx
 'use client';
-
+import "../globals.css";
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-// Import CSS files
-import '../../public/css/animate.css';
-import '../../public/css/aos.css';
-import '../../public/css/flaticon.css';
-import '../../public/css/tiny-slider.css'; 
-import '../../public/css/bootstrap/bootstrap-grid.css';
-import '../../public/css/bootstrap/bootstrap-reboot.css';
-import '../../public/css/bootstrap/bootstrap-utilities.css';
-import '../../public/scss/style.scss';
+
 
 import { motion } from 'framer-motion';
 

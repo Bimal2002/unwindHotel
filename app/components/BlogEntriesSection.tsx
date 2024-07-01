@@ -1,7 +1,8 @@
 // components/BlogEntriesSection.tsx
 'use client';
-
+import "../globals.css";
 import BlogEntry from "./BlogEntrty";
+
 
 // Example array of blog data
 const blogData = [

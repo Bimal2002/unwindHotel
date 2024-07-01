@@ -1,5 +1,6 @@
 // app/components/GallerySection.tsx
 'use client';
+import "../globals.css";
 // app/components/GallerySection.tsx
 import React from 'react';
 import { motion } from 'framer-motion';

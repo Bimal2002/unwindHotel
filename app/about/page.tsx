@@ -3,6 +3,7 @@
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 import Image from "next/image";
 import "./about.css"; // Import your CSS file
+import "../globals.css";
 import fServicesImg1 from "../../public/images/f-services.jpg";
 import fServicesImg2 from "../../public/images/f-services-2.jpg";
 import Footer from "../components/Footer";
@@ -137,7 +138,7 @@ const AboutUs = () => {
         variants={animationVariants}
         transition={{ duration: 0.8, delay: 1.2 }}
       >
-        <TestimonialSection />
+        {/* <TestimonialSection /> */}
       </motion.div>
       <motion.div
         initial="hidden"

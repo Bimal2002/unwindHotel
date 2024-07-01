@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import "../globals.css";
 interface RoomCardProps {
   imageUrl: string;
   title: string;

@@ -1,5 +1,6 @@
 import React from 'react';
-
+import "../globals.css";
+import "./Testimonial.css";
 const TestimonialsSection = () => {
   return (
     <section className="bg-white py-20">

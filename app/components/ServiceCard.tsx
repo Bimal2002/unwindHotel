@@ -1,6 +1,7 @@
 // components/ServiceCard.tsx
 'use client';
 // components/ServiceCard.tsx
+import "../globals.css";
 import React from 'react';
 import { motion } from 'framer-motion';
 

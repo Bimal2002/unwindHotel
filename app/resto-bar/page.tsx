@@ -7,7 +7,7 @@ import Gallery from '../components/GallerySection';
 import Footer from '../components/Footer';
 import Head from "next/head";
 import MenuList from '../components/MenuList';
-
+import "../globals.css";
 
 const RestoBarPage = () => {
   return (

@@ -1,6 +1,7 @@
 // IntroSection.tsx
 
 import React from "react";
+import "../globals.css";
 import { motion } from "framer-motion";
 
 const IntroSection = () => {

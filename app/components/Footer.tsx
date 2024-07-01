@@ -1,13 +1,7 @@
 import Link from "next/link";
-import "../../public/css/animate.css";
-import "../../public/css/aos.css";
-import "../../public/css/flaticon.css";
-import "../../public/css/tiny-slider.css";
-import "../../public/css/bootstrap/bootstrap-grid.css";
-import "../../public/css/bootstrap/bootstrap-reboot.css";
-import "../../public/css/bootstrap/bootstrap-utilities.css";
-import "../../public/scss/style.scss";
+import "../globals.css";
 import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
+import "../globals.css";
 
 const Footer = () => {
   return (

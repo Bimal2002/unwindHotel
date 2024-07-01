@@ -1,5 +1,7 @@
 // TestimonialItem.tsx
 import React from 'react';
+import "./Testimonial.css";
+// import "../globals.css";
 import { motion } from 'framer-motion';
 import Image from 'next/image'; 
 
