@@ -1,5 +1,3 @@
-// components/TestimonialsSection.tsx
-
 import React from 'react';
 
 const TestimonialsSection = () => {
@@ -9,7 +7,7 @@ const TestimonialsSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">Community Reviews</h2>
           <p className="text-base text-gray-600">
-            From there give dominion, lights doesn't good all rule let open, appear our beast second bearing.
+            From there give dominion, lights doesn&apos;t good all rule let open, appear our beast second bearing.
           </p>
         </div>
         <div className="flex flex-wrap -mx-4">
@@ -148,19 +146,6 @@ const TestimonialsSection = () => {
                       />
                     </svg>
                   </span>
-                  <span className="text-yellow-500 mr-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 inline-block"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M19 7.5a.5.5 0 0 0-.5-.5h-6.598L10 1.902a.5.5 0 0 0-.9 0L7.098 7H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h5.598l1.403 5.598a.5.5 0 0 0 .9 0L12.902 10H19.5a.5.5 0 0 0 .5-.5v-1z"
-                      />
-                    </svg>
-                  </span>
                   <span className="text-gray-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -176,8 +161,8 @@ const TestimonialsSection = () => {
                   </span>
                 </div>
                 <p className="text-gray-600 mt-2">
-                  Their creature i him, yielding it brought made. Gathering thing open, fowl forth creeping him land
-                  waters. Let.
+                  One multiply. Under cattle third void. Without that, very had upon light saying land gathered
+                  yielding behold all.
                 </p>
               </div>
             </div>
@@ -192,7 +177,7 @@ const TestimonialsSection = () => {
                 className="rounded-full mx-auto mt-4 w-32 h-32"
               />
               <div className="p-4">
-                <h4 className="text-xl font-semibold text-gray-800 mb-2">Haley Nguyen</h4>
+                <h4 className="text-xl font-semibold text-gray-800 mb-2">Eva Longoria</h4>
                 <div className="flex mb-4">
                   <span className="text-yellow-500 mr-1">
                     <svg
@@ -220,7 +205,20 @@ const TestimonialsSection = () => {
                       />
                     </svg>
                   </span>
-                  <span className="text-yellow-500 mr-1">
+                  <span className="text-gray-600">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5 inline-block"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M19 7.5a.5.5 0 0 0-.5-.5h-6.598L10 1.902a.5.5 0 0 0-.9 0L7.098 7H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h5.598l1.403 5.598a.5.5 0 0 0 .9 0L12.902 10H19.5a.5.5 0 0 0 .5-.5v-1z"
+                      />
+                    </svg>
+                  </span>
+                  <span className="text-gray-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5 inline-block"
@@ -248,14 +246,11 @@ const TestimonialsSection = () => {
                   </span>
                 </div>
                 <p className="text-gray-600 mt-2">
-                  Their so midst seas, above, over made brought all. Own two. Seed fowl itself midst for under fill
-                  brought together.
+                  From there give dominion, lights doesn&apos;t good all rule let open, appear our beast second bearing.
                 </p>
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
     </section>
