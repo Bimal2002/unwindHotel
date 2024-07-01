@@ -31,27 +31,12 @@ import "../../public/scss/style.scss";
 // );
 
 // export default HeroSection;
-import { IoIosArrowRoundForward } from "react-icons/io";
-import Head from "next/head";
+// import { IoIosArrowRoundForward } from "react-icons/io";
 
 const HeroSection = () => {
   return (
     <>
-      <Head>
-        <link rel="stylesheet" href="/css/style.css" />
-        {/* Include other necessary styles */}
-
-        {/* External JavaScript files */}
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-        <script src="/js/tiny-slider.js"></script>
-        <script src="/js/glightbox.min.js"></script>
-        <script src="/js/aos.js"></script>
-        <script src="/js/datepicker.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=false"></script>
-        <script src="/js/google-map.js"></script>
-        <script src="/js/main.js"></script>
-      </Head>
+      
 
       <section
         className="hero-wrap bg-cover bg-center relative"
@@ -93,14 +78,14 @@ const HeroSection = () => {
                   href="#"
                   className="btn btn-primary p-4 py-3 flex-wrap flex-col items-center"
                 >
-                  Take A Tour{" "} <IoIosArrowRoundForward  />
+                  Take A Tour{" "}<span className="ion-ios-arrow-round-forward"></span>
                  
                 </Link>{" "}
                 <Link
                   href="#"
                   className="btn btn-white btn-outline-white p-4 py-3 flex items-center"
                 >
-                  Learn More <IoIosArrowRoundForward className="ml-1" />
+                  Learn More <span className="ion-ios-arrow-round-forward"></span>
                 </Link>
               </p>
             </div>
