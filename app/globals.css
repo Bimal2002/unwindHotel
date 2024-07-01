@@ -27,7 +27,7 @@
 
 /* Font-face declarations */
 @font-face {
-  font-family: 'Flaticon';
+    font-family: "Nunito", Arial, sans-serif;
   src: url('/fonts/flaticon/font/Flaticon.eot');
   src: url('/fonts/flaticon/font/Flaticon.eot?#iefix') format('embedded-opentype'),
        url('/fonts/flaticon/font/Flaticon.woff2') format('woff2'),
@@ -72,7 +72,7 @@
 }
 
 body {
-    font-family: "Nunito", "Arial", "sans-serif";
+    font-family: "Nunito", Arial, sans-serif;
     background: #f8f8f8;
     font-size: 16px;
     line-height: 1.8;
